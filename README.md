@@ -1,6 +1,8 @@
 ## Pigshell
 unix the web
 
+[Pigshell](images/pigshell-logo.png)
+
 [Pigshell] (http://pigshell.com/) is a pure client-side Javascript app running in the browser, which presents resources on the web as files. These include public web pages as well as private data in Google Drive, Dropbox, Facebook and even your desktop. It provides a command line interface to construct pipelines of simple commands to transform, display and copy data.
 
 Pigshell is free software, released under the GNU GPLv3.
@@ -27,13 +29,13 @@ Together, these features enable powerful data movement and transformation pipeli
 
 `Psty` installation:
 
-    wget -O ~/bin "http://pigshell.com/v/0.6.2/psty.py"
-    chmod 755 ~/bin/psty.py
-    mkdir -p ~/psty
-    echo alias psty='~/bin/psty.py -a -d ~/psty' >> ˜/.bashrc
-    cd ~
-    . .bashrc
+    $ wget -O ~/bin "http://pigshell.com/v/0.6.2/psty.py"
+    $ chmod 755 ~/bin/psty.py
+    $ mkdir -p ~/psty
+    $ echo alias psty='~/bin/psty.py -a -d ~/psty' >> ˜/.bashrc
+    $ cd ~
+    $ . .bashrc
     
 `Psty` starting: 
 
-    psty&
+    $ psty&
