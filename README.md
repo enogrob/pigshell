@@ -1,7 +1,6 @@
-## Pigshell
-unix the web
+![Pigshell](images/pigshell-logo.png "Pigshell")
 
-[Pigshell](images/pigshell-logo.png)
+## Pigshell - Unix the web
 
 [Pigshell] (http://pigshell.com/) is a pure client-side Javascript app running in the browser, which presents resources on the web as files. These include public web pages as well as private data in Google Drive, Dropbox, Facebook and even your desktop. It provides a command line interface to construct pipelines of simple commands to transform, display and copy data.
 
@@ -22,9 +21,9 @@ Running the `psty` server on your desktop is strongly recommended. It exposes a 
 
 `Psty` implements three services:
 
-* Local file server: `Psty` exposes a local directory of your choice to pigshell, letting you read and write files stored on your desktop from pigshell.
-* HTTP proxy server: `Psty` proxies HTTP requests for pigshell, giving it access to any URL on the web, bypassing the same-origin restrictions faced by Javascript apps in the browser.
-* Websocket server: Every unix app on the desktop which uses stdin/stdout can participate in a pigshell pipeline.
+1. **Local file server:** `Psty` exposes a local directory of your choice to pigshell, letting you read and write files stored on your desktop from pigshell.
+2. **HTTP proxy server:** `Psty` proxies HTTP requests for pigshell, giving it access to any URL on the web, bypassing the same-origin restrictions faced by Javascript apps in the browser.
+3. **Websocket server:** Every unix app on the desktop which uses stdin/stdout can participate in a pigshell pipeline.
 Together, these features enable powerful data movement and transformation pipelines. 
 
 `Psty` installation:
